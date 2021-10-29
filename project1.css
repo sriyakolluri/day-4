@@ -1,0 +1,37 @@
+.cardbody{
+    border:2px solid black;
+    padding: 1%;
+    margin:1%;
+    font-size:20px;
+}
+s{
+    color:red;
+}
+p{
+    color:black
+}
+u,h2{
+    color:blue;
+}
+button{
+    color:white;
+    padding:1%;
+    background-color:violet;
+    width:10%;
+}
+.cardbody img{
+    width:50%;
+    height:20%;
+}
+.card{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardbody img{
+    width: 50%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
